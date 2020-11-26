@@ -1,6 +1,7 @@
 variable "name" {
   type          = string
   description   = "(Required) Specifies the name of the Connection. Changing this forces a new resource to be created."
+  default       = "AzureRunAsConnection"
 }
 
 variable "resource_group_name" {
